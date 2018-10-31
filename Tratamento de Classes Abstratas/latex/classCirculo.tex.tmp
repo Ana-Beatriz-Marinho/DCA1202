@@ -1,0 +1,81 @@
+\hypertarget{classCirculo}{}\section{Circulo Class Reference}
+\label{classCirculo}\index{Circulo@{Circulo}}
+
+
+A classe \hyperlink{classCirculo}{Circulo} serve para criar uma figura geometrica de tipo circulo.  
+
+
+
+
+{\ttfamily \#include $<$circulo.\+h$>$}
+
+
+
+Inheritance diagram for Circulo\+:
+% FIG 0
+
+
+Collaboration diagram for Circulo\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCirculo_a6d3f9ba1f9ca2d2db5035abd0b6be333}{Circulo} (int \+\_\+x\+\_\+centro, int \+\_\+y\+\_\+centro, int \+\_\+raio, bool \+\_\+filled)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCirculo_a6d3f9ba1f9ca2d2db5035abd0b6be333}{Circulo(int \+\_\+x\+\_\+centro, int \+\_\+y\+\_\+centro, int \+\_\+raio, bool \+\_\+filled)} eh o constructor que initializa as cordenadas do centro, o raio e modo de preenchimento do circulo. \end{DoxyCompactList}\item 
+void \hyperlink{classCirculo_a593787d6e0618c2eded23e8839e7bea6}{draw} (\hyperlink{classScreen}{Screen} \&t)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCirculo_a593787d6e0618c2eded23e8839e7bea6}{draw(\+Screen \&t)} eh a funcao que serve para desenhar a saida, usando um objeto de tipo \hyperlink{classScreen}{Screen} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A classe \hyperlink{classCirculo}{Circulo} serve para criar uma figura geometrica de tipo circulo. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCirculo_a6d3f9ba1f9ca2d2db5035abd0b6be333}\label{classCirculo_a6d3f9ba1f9ca2d2db5035abd0b6be333}} 
+\index{Circulo@{Circulo}!Circulo@{Circulo}}
+\index{Circulo@{Circulo}!Circulo@{Circulo}}
+\subsubsection{\texorpdfstring{Circulo()}{Circulo()}}
+{\footnotesize\ttfamily Circulo\+::\+Circulo (\begin{DoxyParamCaption}\item[{int}]{\+\_\+x\+\_\+centro,  }\item[{int}]{\+\_\+y\+\_\+centro,  }\item[{int}]{\+\_\+raio,  }\item[{bool}]{\+\_\+filled }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classCirculo_a6d3f9ba1f9ca2d2db5035abd0b6be333}{Circulo(int \+\_\+x\+\_\+centro, int \+\_\+y\+\_\+centro, int \+\_\+raio, bool \+\_\+filled)} eh o constructor que initializa as cordenadas do centro, o raio e modo de preenchimento do circulo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x\+\_\+centro} & recebe a cordenada x do centro \\
+\hline
+{\em \+\_\+y\+\_\+centro} & recebe a cordenada y do centro \\
+\hline
+{\em \+\_\+raio} & recebe o raio do circulo \\
+\hline
+{\em \+\_\+filled} & recebe um boolean que se true, o circulo vira um disco \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classCirculo_a593787d6e0618c2eded23e8839e7bea6}\label{classCirculo_a593787d6e0618c2eded23e8839e7bea6}} 
+\index{Circulo@{Circulo}!draw@{draw}}
+\index{draw@{draw}!Circulo@{Circulo}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Circulo\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{classScreen}{Screen} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\hyperlink{classCirculo_a593787d6e0618c2eded23e8839e7bea6}{draw(\+Screen \&t)} eh a funcao que serve para desenhar a saida, usando um objeto de tipo \hyperlink{classScreen}{Screen} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \&t} & aponta para o objeto Sreen usado para criar a saida \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classFiguraGeometrica_a8ee8dedc060b6059a805ea091aef2c41}{Figura\+Geometrica}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+circulo.\+h\item 
+circulo.\+cpp\end{DoxyCompactItemize}

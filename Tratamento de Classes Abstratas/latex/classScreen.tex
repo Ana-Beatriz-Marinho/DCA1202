@@ -1,0 +1,96 @@
+\hypertarget{classScreen}{}\section{Screen Class Reference}
+\label{classScreen}\index{Screen@{Screen}}
+
+
+A classe \hyperlink{classScreen}{Screen} serve para criar um objeto que contem as configuracoes como numeros de linhas e de colunas, brush.  
+
+
+
+
+{\ttfamily \#include $<$screen.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classScreen_ae7576476fc6e6a6eaa66389fdc41fe72}\label{classScreen_ae7576476fc6e6a6eaa66389fdc41fe72}} 
+\hyperlink{classScreen_ae7576476fc6e6a6eaa66389fdc41fe72}{Screen} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classScreen_ae7576476fc6e6a6eaa66389fdc41fe72}{Screen()} eh o constructor da classe. \end{DoxyCompactList}\item 
+\hyperlink{classScreen_a6c21beca43d25854d8674445127ef2eb}{Screen} (int \+\_\+nlin, int \+\_\+ncol)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classScreen_a6c21beca43d25854d8674445127ef2eb}{Screen(int \+\_\+nlin, int \+\_\+ncol)} eh o constructor que initializa a matriz a ser usada na representacao. \end{DoxyCompactList}\item 
+void \hyperlink{classScreen_ae6bea81c57a22d226507c3c26fa95ee0}{set\+Pixel} (int x, int y)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classScreen_ae6bea81c57a22d226507c3c26fa95ee0}{set\+Pixel(int x, int y)} eh a funcao que marca o ponto na matriz criada \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classScreen_a35e74266b2a04e37b354ceff7a5f1031}\label{classScreen_a35e74266b2a04e37b354ceff7a5f1031}} 
+void \hyperlink{classScreen_a35e74266b2a04e37b354ceff7a5f1031}{clear} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classScreen_a35e74266b2a04e37b354ceff7a5f1031}{clear()} eh a funcao que limpa a matriz, preenchendo ela de espaços \end{DoxyCompactList}\item 
+void \hyperlink{classScreen_a14a00e158f99df199772172554a20576}{set\+Brush} (char brush)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classScreen_a14a00e158f99df199772172554a20576}{set\+Brush(char brush)} eh a funcao atribui o caratere a usar para marcar o ponto \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classScreen_aab6a2880746bfe1b7964817cc8f0989e}\label{classScreen_aab6a2880746bfe1b7964817cc8f0989e}} 
+ostream \& \hyperlink{classScreen_aab6a2880746bfe1b7964817cc8f0989e}{operator$<$$<$} (ostream \&os, \hyperlink{classScreen}{Screen} \&t)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classScreen_aab6a2880746bfe1b7964817cc8f0989e}{operator$<$$<$(ostream \&os, Screen \&t)} que retorna um fluxo de saida contendo os pontos marcados \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A classe \hyperlink{classScreen}{Screen} serve para criar um objeto que contem as configuracoes como numeros de linhas e de colunas, brush. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classScreen_a6c21beca43d25854d8674445127ef2eb}\label{classScreen_a6c21beca43d25854d8674445127ef2eb}} 
+\index{Screen@{Screen}!Screen@{Screen}}
+\index{Screen@{Screen}!Screen@{Screen}}
+\subsubsection{\texorpdfstring{Screen()}{Screen()}}
+{\footnotesize\ttfamily Screen\+::\+Screen (\begin{DoxyParamCaption}\item[{int}]{\+\_\+nlin,  }\item[{int}]{\+\_\+ncol }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classScreen_a6c21beca43d25854d8674445127ef2eb}{Screen(int \+\_\+nlin, int \+\_\+ncol)} eh o constructor que initializa a matriz a ser usada na representacao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+nlinh} & recebe o numero de linhas \\
+\hline
+{\em \+\_\+ncol} & recebe o numero de colunas \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classScreen_a14a00e158f99df199772172554a20576}\label{classScreen_a14a00e158f99df199772172554a20576}} 
+\index{Screen@{Screen}!set\+Brush@{set\+Brush}}
+\index{set\+Brush@{set\+Brush}!Screen@{Screen}}
+\subsubsection{\texorpdfstring{set\+Brush()}{setBrush()}}
+{\footnotesize\ttfamily void Screen\+::set\+Brush (\begin{DoxyParamCaption}\item[{char}]{brush }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classScreen_a14a00e158f99df199772172554a20576}{set\+Brush(char brush)} eh a funcao atribui o caratere a usar para marcar o ponto 
+
+
+\begin{DoxyParams}{Parameters}
+{\em brush} & recebe o caratere a usar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classScreen_ae6bea81c57a22d226507c3c26fa95ee0}\label{classScreen_ae6bea81c57a22d226507c3c26fa95ee0}} 
+\index{Screen@{Screen}!set\+Pixel@{set\+Pixel}}
+\index{set\+Pixel@{set\+Pixel}!Screen@{Screen}}
+\subsubsection{\texorpdfstring{set\+Pixel()}{setPixel()}}
+{\footnotesize\ttfamily void Screen\+::set\+Pixel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classScreen_ae6bea81c57a22d226507c3c26fa95ee0}{set\+Pixel(int x, int y)} eh a funcao que marca o ponto na matriz criada 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & recebe a coordenada x \\
+\hline
+{\em y} & recebe a coordenada y \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+screen.\+h\item 
+screen.\+cpp\end{DoxyCompactItemize}
