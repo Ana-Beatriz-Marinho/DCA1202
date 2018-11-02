@@ -107,7 +107,7 @@ int main(int argc, char *argv[]){
     output.close();
     input.close();
 
-
+    output << *t;
 
     /*
     cout << "Hello World!" << endl;
