@@ -14,7 +14,7 @@
 class Retangulo : public FiguraGeometrica
 {
 private:
-    int x0; int y0; int largura; int altura;
+    int x0; int y0; int largura; int altura; bool filled;
 public:
 
     /**
@@ -27,7 +27,7 @@ public:
     * @param _altura recebe a altura do retangulo
     */
 
-    Retangulo(int _x0, int _y0, int _largura, int _altura);
+    Retangulo(int _x0, int _y0, int _largura, int _altura, bool _filled);
 
     /**
     *

@@ -24,13 +24,13 @@ void Retangulo::draw(Screen &t){
         t.setPixel(x0, j);
         t.setPixel(x0+largura-1, j);
     }
-    
+
     //Retangulo preenchido
     if(filled){
-		for(int i= x0; i<= x0+largura; i++){
-			for(int j= y0; j<= y0+altura;j++){
-				t.setPixel(i,j);
-			}
-		}
-	}
+        for(int i= x0; i<= x0+largura; i++){
+            for(int j= y0; j<= y0+altura;j++){
+                t.setPixel(i,j);
+            }
+        }
+    }
 }

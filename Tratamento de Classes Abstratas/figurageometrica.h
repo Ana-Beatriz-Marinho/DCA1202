@@ -23,7 +23,7 @@ public:
     *
     */
 
-    FiguraGeometrica();
+    FiguraGeometrica(){};
 
     /**
     *

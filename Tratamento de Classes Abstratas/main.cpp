@@ -19,8 +19,8 @@ int main(int argc, char *argv[]){
     ifstream input;
     ofstream output;
     string codigo;
-    string file = "entrada.txt";
-    string ofile = "saida.txt";
+    string file = "/home/ana/projeto_unit2/entrada.txt";
+    string ofile = "/home/ana/projeto_unit2/saida.txt";
 
     int nlinhas, ncolunas, largura, altura, x0, y0, x1, y1, raio, fillMode;
     char brush;
@@ -73,7 +73,8 @@ int main(int argc, char *argv[]){
                 sstream >> y0;
                 sstream >> largura;
                 sstream >> altura;
-                f = new Retangulo(x0, y0, largura, altura);
+                sstream >> fillMode;
+                f = new Retangulo(x0, y0, largura, altura,fillMode);
                 f->draw(*t);
                 cout << *t;
                 if(output.is_open()){
@@ -108,7 +109,8 @@ int main(int argc, char *argv[]){
     input.close();
 
 
-
+    cout<< *t;
+    output << *t;
     /*
     cout << "Hello World!" << endl;
     Screen s = Screen(20, 20);

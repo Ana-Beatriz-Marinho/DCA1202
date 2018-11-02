@@ -40,7 +40,7 @@ void Screen::setBrush(char _brush){
 ostream& operator<<(ostream &os, Screen &t){
     for(int j=0; j< t.nlin; j++){
         for(int i=0; i< t.ncol; i++){
-            os << setw(2)<<t.mat[j][i];
+            os <<t.mat[j][i];
         }
         os << endl;
     }
