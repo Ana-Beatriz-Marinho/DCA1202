@@ -108,9 +108,14 @@ int main(int argc, char *argv[]){
     output.close();
     input.close();
 
+<<<<<<< HEAD
 
     cout<< *t;
     output << *t;
+=======
+    output << *t;
+
+>>>>>>> 151bae9ef4e611c7491a09e48d9c13e9f036d82e
     /*
     cout << "Hello World!" << endl;
     Screen s = Screen(20, 20);
