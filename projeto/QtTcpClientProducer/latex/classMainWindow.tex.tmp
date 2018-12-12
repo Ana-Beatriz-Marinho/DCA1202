@@ -1,0 +1,43 @@
+\hypertarget{classMainWindow}{}\section{Main\+Window Class Reference}
+\label{classMainWindow}\index{Main\+Window@{Main\+Window}}
+
+
+Inheritance diagram for Main\+Window\+:
+% FIG 0
+
+
+Collaboration diagram for Main\+Window\+:
+% FIG 1
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMainWindow_ac5b669957c442b6eb68573dacfce33e1}\label{classMainWindow_ac5b669957c442b6eb68573dacfce33e1}} 
+void \hyperlink{classMainWindow_ac5b669957c442b6eb68573dacfce33e1}{tcp\+Connect} ()
+\begin{DoxyCompactList}\small\item\em tcp\+Connect Função que faz conexão com o servidor com ip que usuário passou. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainWindow_a4d22c4c7afc7ba0a2fa4c70515c85dda}\label{classMainWindow_a4d22c4c7afc7ba0a2fa4c70515c85dda}} 
+void \hyperlink{classMainWindow_a4d22c4c7afc7ba0a2fa4c70515c85dda}{tcp\+Disconnect} ()
+\begin{DoxyCompactList}\small\item\em tcp\+Desconnect Função que finaliza conexão com o servidor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainWindow_a9de812d548bb00f2daebae8a834108d5}\label{classMainWindow_a9de812d548bb00f2daebae8a834108d5}} 
+void \hyperlink{classMainWindow_a9de812d548bb00f2daebae8a834108d5}{set\+Intervalo\+Temp} ()
+\begin{DoxyCompactList}\small\item\em intervalo Função que indica o intervalo de tempo entre o envio de dois dados consecultivos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainWindow_a64c3de0ec1452cb9e62bc7268fb2772d}\label{classMainWindow_a64c3de0ec1452cb9e62bc7268fb2772d}} 
+void \hyperlink{classMainWindow_a64c3de0ec1452cb9e62bc7268fb2772d}{Start\+Temp} ()
+\begin{DoxyCompactList}\small\item\em Start\+Temp Inicia transmissão de dados. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainWindow_af621425d8ff07505313b5c89faf0789e}\label{classMainWindow_af621425d8ff07505313b5c89faf0789e}} 
+void \hyperlink{classMainWindow_af621425d8ff07505313b5c89faf0789e}{Stop\+Temp} ()
+\begin{DoxyCompactList}\small\item\em Stop\+Temp Finalisa a transmissão de dados. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMainWindow_afdfeb13ec363b0eb8ecacaf0aa13b605}\label{classMainWindow_afdfeb13ec363b0eb8ecacaf0aa13b605}} 
+void \hyperlink{classMainWindow_afdfeb13ec363b0eb8ecacaf0aa13b605}{put\+Data} ()
+\begin{DoxyCompactList}\small\item\em put\+Data Função que cria dados aleatorios baseados na data e intervalo dado pelo usuário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMainWindow_a8b244be8b7b7db1b08de2a2acb9409db}\label{classMainWindow_a8b244be8b7b7db1b08de2a2acb9409db}} 
+{\bfseries Main\+Window} (Q\+Widget $\ast$parent=0)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+mainwindow.\+h\item 
+mainwindow.\+cpp\end{DoxyCompactItemize}
